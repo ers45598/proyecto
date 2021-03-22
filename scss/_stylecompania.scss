@@ -7,10 +7,11 @@
   }
   
   .about .section-header {
-    font-size: $fontSubTitulos;
-    margin-left: 0;
+    
+    
     font-family: $fontSubTitulos;
-    color: white;
+    color: rgb(211, 195, 195);
+    
     
     
   }
@@ -19,9 +20,7 @@
     position: relative;
     overflow: hidden;
     
-    
-    
-  }
+   }
   
   .about .about-img::after {
     position: absolute;
@@ -32,7 +31,7 @@
     left: 60px;
     background: transparent;
     border: 30px solid;
-    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.05), rgba(0,0,0,.05) .5%, rgba(0,0,0,.1) .5%, rgba(0,0,0,.1) 1%) 30;
+    border-image: repeating-linear-gradient( 45deg, rgba(204, 195, 195, 0.452), rgba(0,0,0,.05) .5%, rgba(0,0,0,.1) .5%, rgba(0,0,0,.1) 1%) 30;
     
     
     
@@ -70,9 +69,11 @@
   
   .about .about-text p {
     font-size: 16px;
-    box-shadow: 0 0 20px rgb(255, 255, 255) inset;
-    color: black;
+    
+    color: rgb(128, 118, 118);
     border-radius: 6px;
+    
+    font-family: $fontTextos;
     
   }
   
@@ -84,5 +85,6 @@
     .about .about-img {
         margin-bottom: 30px;
         height: auto;
+        
     }
   }
