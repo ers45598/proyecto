@@ -1,0 +1,88 @@
+
+.about {
+    position: relative;
+    width: 100%;
+    padding: 60px 0;
+    
+  }
+  
+  .about .section-header {
+    font-size: $fontSubTitulos;
+    margin-left: 0;
+    font-family: $fontSubTitulos;
+    color: white;
+    
+    
+  }
+  
+  .about .about-img {
+    position: relative;
+    overflow: hidden;
+    
+    
+    
+  }
+  
+  .about .about-img::after {
+    position: absolute;
+    content: "";
+    top: 60px;
+    right: 60px;
+    bottom: 60px;
+    left: 60px;
+    background: transparent;
+    border: 30px solid;
+    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.05), rgba(0,0,0,.05) .5%, rgba(0,0,0,.1) .5%, rgba(0,0,0,.1) 1%) 30;
+    
+    
+    
+  }
+  
+  
+  
+  .about .about-img-1 {
+    position: relative;
+    height: 100%;
+    height: 100%;
+    margin: 0 150px 150px 0;
+    
+    
+  }
+  
+  .about .about-img-2 {
+    position: absolute;
+    height: 100%;
+    height: 100%;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+    
+    
+    
+  }
+  
+  .about .about-img-1 img,
+  .about .about-img-2 img {
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  .about .about-text p {
+    font-size: 16px;
+    box-shadow: 0 0 20px rgb(255, 255, 255) inset;
+    color: black;
+    border-radius: 6px;
+    
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 767.98px) {
+    .about .about-img {
+        margin-bottom: 30px;
+        height: auto;
+    }
+  }

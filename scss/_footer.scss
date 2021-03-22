@@ -1,0 +1,130 @@
+
+footer {
+  bottom: 0px;
+  width: 100%;
+  background: rgb(17, 17, 17);
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h2 {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-family: $fontTextos;
+  color: rgb(75, 71, 71);
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.box .content:before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.box .content:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+
+.left .content p {
+  text-align: justify;
+  color: rgb(75, 71, 71);
+  font-family: $fontTextos;
+  font-size: 15px;
+}
+
+.center .content .fas {
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  color: rgb(75, 71, 71);
+}
+
+.center .content .fas:hover {
+  background: #f12020;
+}
+
+.center .content .text {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+  color: rgb(75, 71, 71);
+}
+
+.center .content .phone {
+  margin: 15px 0;
+
+}
+
+.right form .text {
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: rgb(71, 75, 71);
+}
+
+.right form .msg {
+  margin-top: 10px;
+}
+
+.right form input,
+.right form textarea {
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+  color: rgb(75, 71, 71);
+}
+
+.right form input {
+  height: 35px;
+}
+
+.btn:hover {
+  margin-top: 0px;
+  background: #f12020;
+  transition: .1s;
+  border-radius: 6px;
+}
+
+.right form .btn button {
+  background-color: #f12020;
+  border: 1px solid #f12020;
+  border-radius: 6px;
+  padding: 5px;
+  font-weight: 500;
+  color: white;
+}
+
+.bottom center {
+  padding: 5px;
+  background-image: linear-gradient(135deg, #491616 30%, #1f0a6b 50%);
+}
+
+.bottom center span {
+  color: rgb(75, 71, 71);
+}

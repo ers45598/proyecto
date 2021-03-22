@@ -1,0 +1,19 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(135deg, #491616 30%, #1f0a6b 50%);
+  box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+}
+
+.navbar {
+  width: 100%;
+}
+
+ul#efecto {
+  text-align: center;
+}
+
+.container a:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
