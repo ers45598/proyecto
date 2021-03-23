@@ -211,10 +211,32 @@ body {
   border-radius: 6px;
   font-family: "Libre Baskerville", serif; }
 
-@media (max-width: 767.98px) {
-  .about .about-img {
-    margin-bottom: 30px;
-    height: auto; } }
+.service .service-item {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 40px;
+  text-align: center;
+  background-color: #135082;
+  border-radius: 10px; }
+
+h2 {
+  color: #d3c3c3;
+  font-family: "thinking of betty"; }
+
+.fas {
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  width: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #4b4747; }
+
+.service .service-item h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #807676; }
 
 /* home */
 @media (max-width: 900px) {
@@ -235,6 +257,11 @@ body {
     font-size: 30px; } }
 
 /* compañia */
+@media (max-width: 770px) {
+  .about .about-img {
+    margin-bottom: 30px;
+    height: auto; } }
+
 /* footer */
 @media screen and (max-width: 900px) {
   footer {
@@ -245,3 +272,5 @@ body {
     flex-direction: column; }
   .main-content .box {
     margin: 5px 0; } }
+
+/* Servicios */

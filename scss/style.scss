@@ -4,7 +4,7 @@
 @import"_body.scss";
 @import"_home.scss";
 @import"_stylecompania";
-
+@import"_styleservicios";
 
 
 
@@ -33,7 +33,12 @@
 
 /* compañia */
 
-
+@media (max-width: 770px) {
+  .about .about-img {
+    margin-bottom: 30px;
+    height: auto;
+  }
+}
 
 
 /* footer */
@@ -51,4 +56,6 @@
       margin: 5px 0;
     }
   }
+
+  /* Servicios */
 
