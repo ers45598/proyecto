@@ -5,6 +5,7 @@
 @import"_home.scss";
 @import"_stylecompania";
 @import"_styleservicios";
+@import"_serprestador";
 
 
 
@@ -17,10 +18,11 @@
         box-sizing: content-box;
         font-size: medium;
         padding: 5px;
-        background-image: linear-gradient(135deg, #8f2323c7 10%, #0b1391b4 100%);
-        color: white;
+        
+        color: #000000;
         text-shadow: none;
         box-shadow: none;
+        border-radius: 0px;
     }
 }
 

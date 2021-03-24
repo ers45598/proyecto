@@ -1,17 +1,14 @@
-.about {
-  position: relative;
-  width: 100%;
-  padding: 60px 0;
-}
-
 .about .section-header {
   font-family: $fontSubTitulos;
   color: rgb(211, 195, 195);
+  
+  
 }
 
 .about .about-img {
   position: relative;
   overflow: hidden;
+  
 }
 
 .about .about-img::after {
@@ -31,6 +28,7 @@
       rgba(0, 0, 0, 0.1) 1%
     )
     30;
+    
 }
 
 .about .about-img-1 {
