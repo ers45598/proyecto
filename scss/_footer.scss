@@ -45,12 +45,16 @@ footer {
   top: -10px;
 }
 
+/* texto del footer */
+
 .left .content p {
   text-align: justify;
   color: rgb(75, 71, 71);
   font-family: $fontTextos;
   font-size: 15px;
 }
+
+/* iconos */
 
 .center .content .fas {
   font-size: 1.4375rem;
@@ -62,11 +66,7 @@ footer {
   border-radius: 50%;
   transition: 0.3s;
   cursor: pointer;
-  color: rgb(75, 71, 71);
-}
-
-.center .content .fas:hover {
-  background: #f12020;
+  color: rgb(71, 71, 75);
 }
 
 .center .content .text {
@@ -78,8 +78,35 @@ footer {
 
 .center .content .phone {
   margin: 15px 0;
-
 }
+
+
+/* boton */
+
+
+.center .content .fas:hover {
+  background: #f12020;
+}
+
+.btn:hover {
+  margin-top: 0px;
+  background: #f12020;
+  transition: .1s;
+  border-radius: 6px;
+}
+
+.right form .btn button {
+  background-color: #f12020;
+  border: 1px solid #f12020;
+  border-radius: 6px;
+  padding: 5px;
+  font-weight: 500;
+  color: white;
+}
+
+
+/* formulario */
+
 
 .right form .text {
   font-size: 1.0625rem;
@@ -105,28 +132,13 @@ footer {
   height: 35px;
 }
 
-.btn:hover {
-  margin-top: 0px;
-  background: #f12020;
-  transition: .1s;
-  border-radius: 6px;
-}
 
-.right form .btn button {
-  background-color: #f12020;
-  border: 1px solid #f12020;
-  border-radius: 6px;
-  padding: 5px;
-  font-weight: 500;
-  color: white;
-}
-
-.bottom center {
+center {
   padding: 5px;
   background-image: linear-gradient(135deg, #491616 30%, #1f0a6b 50%);
   margin-top: 20px;
 }
 
-.bottom center span {
+span {
   color: rgb(75, 71, 71);
 }
