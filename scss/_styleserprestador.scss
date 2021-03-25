@@ -1,1 +1,22 @@
 
+
+
+
+.prestador-img img {
+    width: 100%;
+}
+
+.prestador-contenido {
+    position: relative;
+    width: calc(100% - 60px);
+    top: -60px;
+    left: 30px;
+    padding: 25px 30px;
+    background: #135082;
+    box-shadow: 1px 1px 20px 1px #135082; 
+    
+}
+
+.textprest{
+   font-family: $fontTextos;
+}
