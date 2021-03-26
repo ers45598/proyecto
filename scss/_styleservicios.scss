@@ -1,4 +1,10 @@
+
+
+/* cajas de servicios */
+
+
 .service .service-item {
+    
     width: 100%;
     margin-bottom: 30px;
     padding: 40px;
@@ -12,6 +18,8 @@ h2 {
     font-family: $fontSubTitulos;
 }
 
+/* iconos */
+
 .fas {
     font-size: 1.4375rem;
     background: #1a1a1a;
@@ -21,7 +29,10 @@ h2 {
     color: #4b4747;
 }
 
+/* titulos de servicios */
+
 .service .service-item h3 {
+    
     margin-bottom: 10px;
     font-size: 22px;
     font-weight: 300;
