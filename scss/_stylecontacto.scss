@@ -16,10 +16,12 @@ h1{
     text-align: center;
     margin: 10px 0;
     font-weight: 800;
+    
+    font-family: $fontTextos;
 }
 
 .formulario{
-    background: white;
+    background: #B0D9D1;
     width: 30%;
     padding: 10px 0;
     border-radius: 10px;
@@ -41,7 +43,7 @@ h1{
 
 input, textarea{
     background: none;
-    color: #c6c6c6;
+    color: #130505;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -53,7 +55,7 @@ input, textarea{
 
 input:focus,textarea:focus{
     outline: none;
-    color: rgb  (94,93,93);
+    color: rgb(94,93,93);
 }
 
 input:focus~label,
@@ -63,7 +65,7 @@ input:focus~label,
     position: absolute;
     top: -14px;
     font-size: 12px;
-    color: #2196f3;
+    color: rgb(161, 157, 157);
 }   
 
 label{
@@ -94,7 +96,7 @@ input:focus~.barra::before, textarea:focus~.barra::before{
     width: 0;
     bottom: 0;
     position: absolute;
-    background: linear-gradient(81deg, rgb(3, 44, 245) 20%, rgb(216, 6, 6) 50%);
+    background: linear-gradient(81deg, rgb(255, 255, 255) 30%, #04ADBF 50%);
     transition: 0.3s ease all;
     left: 0%;
 
@@ -103,7 +105,8 @@ input:focus~.barra::before, textarea:focus~.barra::before{
 /* boton */
 
 .botoncontacto{
-    background: linear-gradient(81deg, rgba(30,41,93,1) 5%, rgba(102,28,28,1) 94%);
+    background: #03738C;
+    transition: 0.4s;
     display: block;
     width: 100px;
     height: 40px;

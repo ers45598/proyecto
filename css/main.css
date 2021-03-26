@@ -117,9 +117,7 @@ span {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  box-shadow: inset 0px 0px 5px 1px #e2dede;
-  background: #1e295d;
-  background: linear-gradient(81deg, #1e295d 5%, #661c1c 94%);
+  background: linear-gradient(274deg, #1f6c8a 6%, rgba(19, 49, 70, 0.548) 82%);
   border-radius: 100% 0px 0px 0px; }
 
 .navbar {
@@ -144,7 +142,7 @@ body {
 .presentacion__titulo {
   font-family: "thinking of betty";
   font-size: 36px;
-  color: #000000;
+  color: #03738C;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 30px;
@@ -220,7 +218,7 @@ body {
   margin-bottom: 30px;
   padding: 40px;
   text-align: center;
-  background-color: #135082;
+  background-color: #03738C;
   border-radius: 10px; }
 
 h2 {
@@ -254,7 +252,7 @@ h2 {
   top: -60px;
   left: 30px;
   padding: 25px 30px;
-  background: #135082;
+  background: #03738C;
   box-shadow: 1px 1px 20px 1px #135082; }
 
 .textprest {
@@ -273,10 +271,11 @@ h2 {
 h1 {
   text-align: center;
   margin: 10px 0;
-  font-weight: 800; }
+  font-weight: 800;
+  font-family: "Libre Baskerville", serif; }
 
 .formulario {
-  background: white;
+  background: #B0D9D1;
   width: 30%;
   padding: 10px 0;
   border-radius: 10px;
@@ -292,7 +291,7 @@ h1 {
 
 input, textarea {
   background: none;
-  color: #c6c6c6;
+  color: #130505;
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
@@ -303,7 +302,7 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  color: rgb 94, 93, 93; }
+  color: #5e5d5d; }
 
 input:focus ~ label,
 input:valid ~ label,
@@ -312,7 +311,7 @@ textarea:valid ~ label {
   position: absolute;
   top: -14px;
   font-size: 12px;
-  color: #2196f3; }
+  color: #a19d9d; }
 
 label {
   color: var(--colortextos);
@@ -338,13 +337,14 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
   width: 0;
   bottom: 0;
   position: absolute;
-  background: linear-gradient(81deg, #032cf5 20%, #d80606 50%);
+  background: linear-gradient(81deg, white 30%, #04ADBF 50%);
   transition: 0.3s ease all;
   left: 0%; }
 
 /* boton */
 .botoncontacto {
-  background: linear-gradient(81deg, #1e295d 5%, #661c1c 94%);
+  background: #03738C;
+  transition: 0.4s;
   display: block;
   width: 100px;
   height: 40px;
